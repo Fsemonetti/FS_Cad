@@ -1,0 +1,55 @@
+72 Horizontal text justification type (optional, default = 0) integer codes (not bit-coded)
+0 = Left; 1= Center; 2 = Right
+3 = Aligned (if vertical alignment = 0)
+4 = Middle (if vertical alignment = 0)
+5 = Fit (if vertical alignment = 0)
+See the Group 72 and 73 integer codes table for clarification
+
+
+73 Vertical text justification type (optional, default = 0): integer codes (not bit-coded):
+0 = Baseline; 1 = Bottom; 2 = Middle; 3 = Top
+See the Group 72 and 73 integer codes table for clarification
+The following table describes the group codes 72 (horizontal alignment) and
+73 (vertical alignment) in greater detail.
+
+Group 72 and 73 integer codes
+Group 1 2 3 4 5
+72
+0
+Group 73
+3 (top) TLeft TCenter TRight
+2 (middle) MLeft MCenter MRight
+1 (bottom) BLeft BCenter BRight
+0 (baseline) Left Center Right Aligned Middle Fit
+If group 72 and/or 73 values are nonzero then the first alignment point values
+are ignored and AutoCAD calculates new values based on the second alignment
+point and the length and height of the text string itself (after applying the
+text style). If the 72 and 73 values are zero or missing, then the second
+alignment point is meaningless.
+
+
+Txt := 'Teste';
+Canvas.Font.Name := 'Arial';
+Canvas.Font.Size := 8;
+Altura := Canvas.TextHeight(Txt);
+Largura := Canvas.TextWidth(Txt);
+
+
+procedure TForm1.Button1Click(Sender: TObject);
+var
+  ts: TTextStyle;
+begin
+//  With Form1 do   // NEVER USE THE FORM INSTANCE IN THE FORM CLASS CODE !!!
+  begin
+    canvas.brush.color := clYellow;  
+    canvas.Ellipse(100,100,300,300);
+    // canvas.MoveTo(100,100);    // NOT NEEDED
+    Canvas.Font.Size:=22;
+    Canvas.Font.Color:=clRed;
+    ts := Canvas.TextStyle;
+    ts.Alignment := taCenter;
+    ts.Layout := tlCenter;
+    Canvas.TextRect(Rect(100, 100, 300, 300), 0, 0, 'Hello', ts);  // Rect within text is centered, dummy x, dummy y, text, text style
+  end;
+end;
+

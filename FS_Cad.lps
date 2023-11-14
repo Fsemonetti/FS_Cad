@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units Count="20">
+      <Unit0>
+        <Filename Value="FS_Cad.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="6" Y="25"/>
+        <UsageCount Value="49"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="Units\principal.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FrPrincipal"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="2960"/>
+        <CursorPos X="3" Y="2962"/>
+        <UsageCount Value="49"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="Units\ugerar_pdf.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Config"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Ugerar_pdf"/>
+        <UsageCount Value="49"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="Units\uler_dxf.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Uler_dxf"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1001"/>
+        <CursorPos X="39" Y="1053"/>
+        <UsageCount Value="49"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="Units\uroteamento.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Uroteamento"/>
+        <UsageCount Value="49"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="Units\conver.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="69" Y="16"/>
+        <UsageCount Value="49"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="Units\ucircuitos.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FrCircuitos"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Ucircuitos"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="49"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="Units\uobjetos.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Uobjetos"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="84"/>
+        <CursorPos X="38" Y="85"/>
+        <UsageCount Value="49"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="Units\diariodebordo.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="DiarioDeBordo"/>
+        <UsageCount Value="49"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="Units\uclasse_base.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Uclasse_base"/>
+        <UsageCount Value="49"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="Units\usalva_dxf.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Usalva_dxf"/>
+        <UsageCount Value="49"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="Units\ulayers.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="DefLayersForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Ulayers"/>
+        <UsageCount Value="49"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="Units\Uplanilhas.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FrPlanilha"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="49"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="unit1.pas"/>
+        <ComponentName Value="Form1"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <UsageCount Value="18"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="Dxf\1. Projeto elétrico residencial simples 72m2.dxf"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="11805"/>
+        <CursorPos X="6" Y="11982"/>
+        <UsageCount Value="12"/>
+        <Bookmarks Count="1">
+          <Item0 Y="13683"/>
+        </Bookmarks>
+        <DefaultSyntaxHighlighter Value="None"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="D:\AltoQi Lumine Demonstrativo\Exemplos\Superior.dxf"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="140"/>
+        <CursorPos X="53" Y="158"/>
+        <UsageCount Value="9"/>
+        <DefaultSyntaxHighlighter Value="None"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="C:\Downloads\lazarus\fpc\3.2.2\source\rtl\inc\ustringh.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="111"/>
+        <CursorPos X="20" Y="150"/>
+        <UsageCount Value="9"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="C:\lazarus\fpc\3.2.2\source\packages\fcl-image\src\fpcanvas.pp"/>
+        <UnitName Value="FPCanvas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="110"/>
+        <CursorPos X="3" Y="116"/>
+        <UsageCount Value="9"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="C:\lazarus\fpc\3.2.2\source\rtl\inc\systemh.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1210"/>
+        <CursorPos X="11" Y="1233"/>
+        <UsageCount Value="9"/>
+      </Unit18>
+      <Unit19>
+        <Filename Value="..\..\..\Downloads\lazarus\fpc\3.2.2\source\packages\rtl-objpas\src\inc\dateutil.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="249"/>
+        <CursorPos X="10" Y="276"/>
+        <UsageCount Value="10"/>
+      </Unit19>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="Units\principal.pas"/>
+        <Caret Line="4184" Column="27" TopLine="4178"/>
+      </Position1>
+      <Position2>
+        <Filename Value="Units\principal.pas"/>
+        <Caret Line="17" Column="106"/>
+      </Position2>
+      <Position3>
+        <Filename Value="Units\principal.pas"/>
+        <Caret Line="3847" Column="3" TopLine="3841"/>
+      </Position3>
+      <Position4>
+        <Filename Value="Units\principal.pas"/>
+        <Caret Line="4887" Column="22" TopLine="4883"/>
+      </Position4>
+      <Position5>
+        <Filename Value="Units\principal.pas"/>
+        <Caret Line="4886" Column="47" TopLine="4856"/>
+      </Position5>
+      <Position6>
+        <Filename Value="Units\principal.pas"/>
+        <Caret Line="3855" Column="9" TopLine="3841"/>
+      </Position6>
+      <Position7>
+        <Filename Value="Units\principal.pas"/>
+        <Caret Line="3850" Column="46" TopLine="3841"/>
+      </Position7>
+      <Position8>
+        <Filename Value="Units\principal.pas"/>
+        <Caret Line="4885" Column="3" TopLine="4883"/>
+      </Position8>
+      <Position9>
+        <Filename Value="Units\principal.pas"/>
+        <Caret Line="3855" Column="8" TopLine="3838"/>
+      </Position9>
+      <Position10>
+        <Filename Value="Units\principal.pas"/>
+        <Caret Line="3856" Column="8" TopLine="3839"/>
+      </Position10>
+      <Position11>
+        <Filename Value="Units\principal.pas"/>
+        <Caret Line="3855" Column="8" TopLine="3838"/>
+      </Position11>
+      <Position12>
+        <Filename Value="Units\principal.pas"/>
+        <Caret Line="3856" Column="8" TopLine="3839"/>
+      </Position12>
+      <Position13>
+        <Filename Value="Units\principal.pas"/>
+        <Caret Line="3855" Column="8" TopLine="3838"/>
+      </Position13>
+      <Position14>
+        <Filename Value="Units\principal.pas"/>
+        <Caret Line="4888" Column="40" TopLine="4883"/>
+      </Position14>
+      <Position15>
+        <Filename Value="Units\principal.pas"/>
+        <Caret Line="4887" Column="40" TopLine="4882"/>
+      </Position15>
+      <Position16>
+        <Filename Value="Units\principal.pas"/>
+        <Caret Line="4888" Column="40" TopLine="4883"/>
+      </Position16>
+      <Position17>
+        <Filename Value="Units\principal.pas"/>
+        <Caret Line="4895" Column="40" TopLine="4890"/>
+      </Position17>
+      <Position18>
+        <Filename Value="Units\principal.pas"/>
+        <Caret Line="2963" Column="51" TopLine="2961"/>
+      </Position18>
+      <Position19>
+        <Filename Value="Units\principal.pas"/>
+        <Caret Line="2964" Column="59" TopLine="2961"/>
+      </Position19>
+      <Position20>
+        <Filename Value="Units\principal.pas"/>
+        <Caret Line="2963" TopLine="2961"/>
+      </Position20>
+      <Position21>
+        <Filename Value="Units\principal.pas"/>
+        <Caret Line="2962" TopLine="2960"/>
+      </Position21>
+      <Position22>
+        <Filename Value="Units\principal.pas"/>
+        <Caret Line="6" Column="50"/>
+      </Position22>
+      <Position23>
+        <Filename Value="Units\principal.pas"/>
+        <Caret Line="295" Column="28" TopLine="276"/>
+      </Position23>
+      <Position24>
+        <Filename Value="Units\principal.pas"/>
+        <Caret Line="3773" Column="44" TopLine="3761"/>
+      </Position24>
+      <Position25>
+        <Filename Value="Units\principal.pas"/>
+        <Caret Line="3772" Column="44" TopLine="3760"/>
+      </Position25>
+      <Position26>
+        <Filename Value="Units\principal.pas"/>
+        <Caret Line="3773" Column="44" TopLine="3761"/>
+      </Position26>
+      <Position27>
+        <Filename Value="Units\principal.pas"/>
+        <Caret Line="3772" Column="44" TopLine="3760"/>
+      </Position27>
+      <Position28>
+        <Filename Value="Units\principal.pas"/>
+        <Caret Line="3779" Column="44" TopLine="3767"/>
+      </Position28>
+      <Position29>
+        <Filename Value="Units\principal.pas"/>
+        <Caret Line="2963" Column="3" TopLine="2961"/>
+      </Position29>
+      <Position30>
+        <Filename Value="Units\principal.pas"/>
+        <Caret Line="2962" Column="3" TopLine="2960"/>
+      </Position30>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode="default"/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>
