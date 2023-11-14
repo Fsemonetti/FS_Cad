@@ -1,0 +1,60 @@
+object Config: TConfig
+  Left = 152
+  Height = 793
+  Top = 484
+  Width = 1464
+  Caption = 'Configurações'
+  ClientHeight = 793
+  ClientWidth = 1464
+  FormStyle = fsStayOnTop
+  Menu = MainMenu1
+  object Panel2: TPanel
+    Left = 0
+    Height = 36
+    Top = 0
+    Width = 1464
+    Align = alTop
+    BevelOuter = bvNone
+    TabOrder = 0
+  end
+  object Panel1: TPanel
+    Left = 0
+    Height = 41
+    Top = 752
+    Width = 1464
+    Align = alBottom
+    BevelOuter = bvNone
+    TabOrder = 1
+  end
+  object MainMenu1: TMainMenu
+    Left = 48
+    Top = 16
+    object MenuItem1: TMenuItem
+      Caption = 'Listar'
+      object MenuItem3: TMenuItem
+        Caption = 'Listar Itens'
+      end
+      object MenuItem2: TMenuItem
+        Caption = 'Limpar memo'
+      end
+      object MenuItem4: TMenuItem
+        Caption = 'gerar pdf'
+        OnClick = Button2Click
+      end
+    end
+  end
+  object OpenDialog: TOpenDialog
+    DefaultExt = '.xls'
+    Filter = 'Excel spreadsheet (*.xls)|*.xls|Excel XML spreadsheet (*.xlsx)|*.xlsx|LibreOffice/OpenOffice spreadsheet (*.ods)|*.ods|Wikitable (pipes) (.wikitable_pipes)|.wikitable_pipes|All files (*.*)|*.*'
+    Options = [ofExtensionDifferent, ofEnableSizing, ofViewDetail]
+    Left = 212
+    Top = 228
+  end
+  object SaveDialog: TSaveDialog
+    DefaultExt = '.xls'
+    Filter = 'Excel spreadsheet (*.xls)|*.xls|Excel XML spreadsheet (*.xlsx)|*.xlsx|LibreOffice/OpenOffice spreadsheet (*.ods)|*.ods|Wikitable (wikimedia) (.wikitable_wikimedia)|*.wikitable_wikimedia'
+    Options = [ofOverwritePrompt, ofExtensionDifferent, ofEnableSizing, ofViewDetail]
+    Left = 212
+    Top = 292
+  end
+end

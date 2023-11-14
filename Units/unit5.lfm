@@ -1,0 +1,58 @@
+object FrBaseDados: TFrBaseDados
+  Left = -8
+  Height = 1057
+  Top = -8
+  Width = 1920
+  Caption = 'FrBaseDados'
+  ClientHeight = 1057
+  ClientWidth = 1920
+  OnCreate = FormCreate
+  LCLVersion = '2.2.4.0'
+  object Button1: TButton
+    Left = 256
+    Height = 25
+    Top = 488
+    Width = 296
+    Caption = 'Aplicar em todos os objetos deste tipo'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object TIPropertyGrid1: TTIPropertyGrid
+    Left = 232
+    Height = 434
+    Top = 48
+    Width = 320
+    CheckboxForBoolean = False
+    DefaultValueFont.Color = clWindowText
+    Filter = [tkInteger, tkChar, tkEnumeration, tkFloat, tkSet, tkMethod, tkSString, tkLString, tkAString, tkWString, tkVariant, tkArray, tkRecord, tkInterface, tkClass, tkObject, tkWChar, tkBool, tkInt64, tkQWord, tkDynArray, tkInterfaceRaw, tkProcVar, tkUString, tkUChar, tkHelper, tkFile, tkClassRef, tkPointer]
+    Indent = 16
+    NameFont.Color = clWindowText
+    OnEnter = TIPropertyGrid1Enter
+    OnModified = TIPropertyGrid1Modified
+    ValueFont.Color = clMaroon
+  end
+  object ListBox1: TListBox
+    Left = 32
+    Height = 440
+    Top = 48
+    Width = 184
+    Items.Strings = (
+      'TFio'
+      'TTubulacao'
+      'TIluminacao'
+      'TInterruptor'
+      'TTomada'
+      'TCd'
+      'TCxp'
+      'TLinha'
+      'Tarco'
+      'TCirculo'
+      'TTexto'
+      'TArcoS'
+      'TCircuito'
+    )
+    ItemHeight = 15
+    OnClick = ListBox1Click
+    TabOrder = 2
+  end
+end
