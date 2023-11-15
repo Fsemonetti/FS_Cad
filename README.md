@@ -7,3 +7,6 @@ Baixe todos os arquivos, extrai e coloque em uma pasta.
 Instale o Lazarus. 
 Abra o arquivo FS_Cad.lpi
 e execute a aplicação, no botão play...
+<img src="/images/Tela1.png">
+<img src="/images/Tela2.png">
+<img src="/images/Tela3.png">
