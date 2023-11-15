@@ -13,7 +13,7 @@ Por menores:
 
 -Nativo Lazarus, não usa bibliotecas de terceiros, somente a fspreadsheet que pode ser instalada a partir do próprio ambiente (pertence ao Lazarus).
 
--Imporatação de DXF (parcial limitado a entidades simples);
+-Importação de DXF (parcial limitado a entidades simples);
 
 -Exportação em DXF, o que você vê é o resultado final.
 
